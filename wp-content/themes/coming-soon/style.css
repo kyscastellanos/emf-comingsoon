@@ -1,0 +1,72 @@
+/*
+Theme Name: EMF - Coming soon
+*/
+
+.full {
+    background: url(img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.opaque {
+    background-color: white;
+    opacity: 0.8;
+}
+
+#logo {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#logo > img {
+    width: 40%;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    opacity: 1;
+}
+
+p {
+    font-family: 'Cardo', serif;
+    color: black;
+    opacity: 1;
+}
+
+#soon {
+    margin-top: 15px;
+    text-align: center;
+}
+
+#soon > h1 {
+    font-size: 60px;
+}
+
+#soon > a:hover {
+    text-decoration: none;
+}
+
+#soon > p, #soon > a > p {
+    font-size: 20px;
+}
+
+#soon > a > i {
+    color: black;
+}
+
+#about, #contact {
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    #logo > img {
+        width: 100%;
+    }
+
+    #soon > h1 {
+        font-size: 40px;
+    }
+}
